@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #007bff;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.header button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #0056b3;
+}
+
+.section-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin-top: 20px;
+}
+
+.formula {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.formula img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.resetform {
+    background-color: #ff8c00;
+}
+
+button.resetform:hover {
+    background-color: #e07b00;
+}
+
+#result, #resultKeliling {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
